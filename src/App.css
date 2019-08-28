@@ -9,10 +9,6 @@ font-family: 'Hepta Slab', serif; */
   --mainYellow: #ffa400;
 }
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-
   font-weight: bolder !important;
   font-family: "Hepta Slab", serif !important;
   background: var(--mainWhite) !important;
