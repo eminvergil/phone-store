@@ -35,7 +35,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
             <li className="nav-item ml-5">
-              <Link to="/details">
+              <Link to="/about">
                 <button className="btn btn-info">About</button>
               </Link>
             </li>

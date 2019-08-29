@@ -9,6 +9,7 @@ import Details from "./components/Details";
 import Card from "./components/Card";
 import Default from "./components/Default";
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/details" component={Details} />
         <Route path="/card" component={Card} />
         <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
         <Route component={Default} />
       </Switch>
     </React.Fragment>
